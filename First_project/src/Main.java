@@ -10,6 +10,7 @@ public class Main {
 		
 		
 		System.out.println("Alright " +name +". Please enter your age");
+		
 		int age = scanner.nextInt();
 		
 		
@@ -17,30 +18,16 @@ public class Main {
 			System.out.println("Wow! "+ age + ", your old!");
 			
 		}
-		String food = scanner.nextLine();
-		System.out.println("Alright, what is your fav food?"+food+"Jingle");
-		scanner.nextLine();
 		
-		System.out.println("You like " +food);  
+		System.out.println("Alright, what is your favorite food?");
+		scanner.nextLine();
+		String food = scanner.nextLine();
+		
 		System.out.println("Hey "+ name);
 		System.out.println("You are "+age + " years old");
+		System.out.println("You like " +food);  
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+	
 	}
 
 }
