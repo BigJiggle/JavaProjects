@@ -101,3 +101,33 @@ public class Main {
 
 
 */
+//Java Fizz-Buzz challenge
+
+
+import java.util.Random;
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+/*fizz buzz - whenever you land on an even number, right fizz, 
+whenever you land on the left right buzz*/
+
+class HelloWorld {}
+public class Test{
+    public static void main(String[] args) {
+        int number = 0;
+        Random random = new Random();
+        
+        for(int index = 0; index < 40; index++){
+            
+            number = random.nextInt(40);
+            if(number % 2 == 0){
+                System.out.println("Fizz");
+            } else if(number % 3 == 0){
+                System.out.println("Fizz Buzz");
+            }
+            else if(number % 2 == 1){
+                System.out.println("Buzz");
+            }
+        }
+        
+    }
+}
